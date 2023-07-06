@@ -1,0 +1,153 @@
+/*common css start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6,a,button,strong{
+    font-weight: 800;
+}
+.sectionname{
+    font-size: 46px;
+    line-height: 90.12px;
+    color: #02918b;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.title{
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 23px;
+}
+.titledes{
+    color: #7e8287;
+    font-size: 11px;
+    line-height: 21px;
+    text-align: justify;
+    text-align: center;
+}
+/*common css end*/
+
+/*Nav section css start*/
+nav{
+    background-color: #02918b;
+}
+nav .row{
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    font-size: 12px;
+    line-height: 60.12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0 26px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color: #cfc91d;
+    color: #0b1016;
+}
+/*Nav section css end*/
+
+/*Banner section css start*/
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.68),rgba(0,0,0,0.66)), url(./../images/banner.jpg);
+    height: 728px;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+#banner .row{
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+#banner h4{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+}
+#banner h1{
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 75px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+#banner p{
+    font-size: 18px;
+    line-height: 33px;
+}
+#banner img{
+    display: block;
+    margin: 52px auto;
+}
+#banner a{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #cfc91d;
+    color: #0b1016;
+    padding: 19px 42px;
+}
+/*Banner section css end*/
+
+/*About section css start*/
+#about{
+    height: 738px;
+    background-size: cover;
+    background-color: #ffffff;
+    background-position: center;
+}
+#about .sectionname{
+    margin-top: 96px;
+}
+#about .about-2 .one{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+#about .about-2 p{
+    color: #7e8287;
+    margin:32px 200px ;
+    font-size: 16px;
+    line-height: 41px;
+}
+#about .about-2 p b{
+    font-size: 23px;
+}
+#about .iconbox-1{
+    margin: 118px 60.5px 156px 60.5px;
+}
+#about .iconbox-1 img{
+    padding-bottom: 30px;
+}
+#about .mobox .iconbox-1 .title{
+    padding-bottom: 30px;
+}
+/*About section css end*/
+
+
+
